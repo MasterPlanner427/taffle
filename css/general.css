@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    font-family: Roboto, Arial;
+
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+hr{
+    border-style: none;
+    border-top-style: solid;
+    width: 20%;
+    border-top-color: gray;
+    margin: 50px auto;
+}

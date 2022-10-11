@@ -1,0 +1,155 @@
+main .image-section {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url("../images/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: 10;
+  padding: 150px 50px;
+  margin-bottom: 50px;
+}
+main .image-section .heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(86, 84, 84);
+}
+main .image-section .shop-now {
+  background-color: black;
+  padding: 15px;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+main .image-section .shop-now:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  font-weight: 700;
+}
+main .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0 50px;
+}
+main .gallery .table {
+  font-family: system-ui;
+  flex: 1;
+  min-width: 300px;
+  height: 300px;
+  background-image: url("../images/table.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  background-position: 5;
+}
+main .gallery .table h1 {
+  font-weight: 400;
+  font-size: 36px;
+}
+main .gallery img {
+  height: 100%;
+}
+main .gallery .second {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 300px;
+  background-image: url("../images/shelves.avif");
+  justify-content: center;
+  align-items: center;
+}
+main .gallery .second h1 {
+  font-weight: 400;
+  font-size: 36px;
+}
+main .gallery .second .buy {
+  background-color: transparent;
+  padding: 15px;
+  letter-spacing: 1.5px;
+  border: 1px solid black;
+  font-weight: 900;
+  color: black;
+}
+main .gallery .second .buy:hover {
+  background-color: black;
+  color: white;
+}
+main .featured-products .vie {
+  text-align: center;
+}
+main .featured-products .vie .view {
+  padding: 15px;
+  background-color: transparent;
+  font-weight: 700;
+  border: 1px solid black;
+}
+main .featured-products .vie .view:hover {
+  background-color: black;
+  color: white;
+}
+main .featured-products .featured {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+}
+main .featured-products .products {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 30px 50px;
+}
+main .featured-products .products .iv {
+  width: 250px;
+}
+main .featured-products .products .iv img {
+  height: 300px;
+  width: 100%;
+}
+main .featured-products .products .iv .title {
+  font-weight: 700;
+}
+main .featured-products .products .iv .price {
+  font-size: 14px;
+}
+main .featured-products .products .iv .price span {
+  color: gray;
+  font-size: 12px;
+}
+main .continue {
+  background-color: rgb(184, 177, 177);
+  padding: 100px;
+  text-align: center;
+  margin: 30px 0;
+  position: relative;
+}
+main .continue h1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+main .continue button {
+  padding: 15px 50px;
+  background-color: transparent;
+  border: 1px solid black;
+  font-size: 24px;
+}
+main .continue button:hover {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  padding: 15px 0;
+  text-align: center;
+  color: gray;
+  font-weight: 700;
+  font-size: 12px;
+  background-color: black;
+}
+footer div {
+  padding: 5px;
+}/*# sourceMappingURL=main.css.map */

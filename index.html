@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6550d13d65.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Taffle</title>
+</head>
+<body>
+    <header class="min-header">
+        <div class="logo">
+            Taffle
+        </div>
+        <button id="sv">
+            <svg width="278" height="108" viewBox="0 0 278 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M81 71H57V65.6667H81V71ZM105 57.6667H57V52.3333H105V57.6667ZM105 44.3333H81V39H105V44.3333Z" fill="black"/>
+                </svg>
+        </button>
+    </header>
+    <nav class="on">
+        <ul>
+            <li><a href="#">HOME</a></li>
+                    <li><a href="contact.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        const on = document.querySelector('.on');
+
+        const myFunction = document.querySelector("#sv");
+
+    myFunction.addEventListener('click',() =>{
+        on.classList.toggle('yes');
+    })
+        
+    </script>
+    <header>
+        <div class="logo">
+            Taffle
+        </div>
+        <div class="head1">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="search" type="search" name="" id="" placeholder="Search item">
+        </div>
+
+        <div class="cart">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="contact.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="image-section">
+            <div class="heading">DISCOVER DESIGN THINGS</div>
+            <h3>A Truely Aesthetic theme for selling</h3>
+            <button class="shop-now">Shop Now</button>
+        </section>
+        <section class="gallery">
+            <div class="table">
+                <h1>S1 TABLE</h1>
+
+                
+            </div>
+            <div class="second">
+                <h1>SHELVES</h1>
+                <button class="shop-now buy">BUY $29.99</button>
+            </div>
+        </section>
+        <hr>
+        <section class="featured-products" >
+           
+            <div class="featured">FEATURED PRODUCTS</div>
+            <div class="products">
+                <div  class="iv">
+                    <img src="images/lamp.avif" alt="">
+                    <div class="title">COGEN WARM LAMP</div>
+                    <p class="price">$56.99  <span>$73.00</span></p>
+                </div>
+                <div  class="iv">
+                    <img src="images/bag.avif" alt="">
+                    <div class="title">DUTCH BAG</div>
+                    <p class="price">$56.99  <span>$73.00</span></p>
+                </div>
+                <div  class="iv">
+                    <img src="images/sofa.avif" alt="">
+                    <div class="title">SOFA</div>
+                    <p class="price">$56.99  <span>$73.00</span></p>
+                </div>
+                <div class="iv">
+                    <img src="images/watch.avif" alt="">
+                    <div class="title">TISSOT WATCH</div>
+                    <p class="price">$56.99  <span>$73.00</span></p>
+                </div>
+            </div>
+            <div class="vie">
+                <button class="view">VIEW ALL POST</button>
+            </div>
+            
+        </section>
+        <section class="continue"> 
+            <h1>MAIN</h1>
+            <button>Continue</button>
+        </section>
+        <hr>
+    </main>
+
+    <footer>
+        <div>
+            © Taffle 2022
+        </div>
+        <div >
+            Privacy | Terms of use
+        </div>
+    </footer>
+</body>
+</html>
